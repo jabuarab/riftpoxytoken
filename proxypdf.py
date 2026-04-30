@@ -95,15 +95,15 @@ def create_printable_pdf(
 
 
 images = [
-    ("mechR3.png", 7),
-    ("goldpox1.png", 4),
-    ("recruitRed.png", 8),
-    ("recruitBlue.png", 8),
+    ("goldred.png", 9),
+    ("goldblue.png", 9),
+    ("casterR.png", 9),
+    ("casterb.png", 9),
 ]
 
 create_printable_pdf(
     images,
-    output_path="cards.pdf",
+    output_path="cards3.pdf",
     page_size="A4",
     dpi=300,
     margin_mm=10,
